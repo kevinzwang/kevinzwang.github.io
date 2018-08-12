@@ -1,0 +1,34 @@
+.card-columns {
+    column-gap: 1.5rem
+}
+
+.card {
+    margin-bottom: 1.5rem!important
+}
+
+#kiva-logo {
+    /* padding: 1.5rem; */
+    background-color: #4faf4e
+}
+
+.social-media > a > i {
+    padding-left: 0.5rem;
+    transition: .2s ease-out
+}
+
+.social-media > a {
+    color:inherit;
+    text-decoration: none
+}
+
+#gh-btn:hover {
+    color: darkgray
+}
+
+#li-btn:hover {
+    color: #4875B4
+}
+
+#fb-btn:hover {
+    color: #3B5998
+}

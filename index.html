@@ -6,31 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <title>Kevin Wang</title>
 </head>
 
 <body class="bg-light">
     <div class="container mt-4">
-        <h1>Kevin Wang</h1>
+        <h1 class="mb-3 d-flex justify-content-between">
+            Kevin Wang 
+            <span class="social-media">
+                <a href="https://github.com/kevinzwang"><i class="fab fa-github" id="gh-btn"></i></a>
+                <a href="https://www.linkedin.com/in/kevinzhiwang/"><i class="fab fa-linkedin" id="li-btn"></i></a>
+                <a href="https://www.facebook.com/kevinzhiwang"><i class="fab fa-facebook" id="fb-btn"></i></a>
+            </span>
+        </h1>
         <p>Hi there! Kevin here. This Github Page is where I'll aggregate all my cool Github projects. Enjoy!</p>
     </div>
 
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4 p-3 my-1">
+        <div class="row px-2 py-4">
+            <div class="card-columns">
+                <div class="card shadow">
+                    <img class="card-img-top py-5 px-4" src="assets/images/kiva-logo.svg" alt="Kiva Logo" id="kiva-logo">
+                    <div class="card-body">
+                        <h4 class="card-title">Kiva Translator Tooltip</h4>
+                        <p class="card-text">My project during my time as a Kiva Engineering Intern. This Chrome and Firefox extension assists Kiva translators and reviewers.</p>
+                        <a href="https://github.com/kiva/viva_glossary_tool" class="btn btn-primary">View Project</a>
+                        <a href="https://www.kiva.org/" class="btn btn-success">Visit Kiva</a>
+                    </div>
+                </div>
                 <div class="card shadow">
                     <img class="card-img-top" src="assets/images/bot-game-site.png" alt="Llama Profile">
                     <div class="card-body">
                         <h4 class="card-title">CS Arch Final Project</h4>
                         <p class="card-text">This is my final project for my Computer Science Machine Architecture class: a game API to allow
                             for easy creation of bots for games such as Connect 4 and Tetris.</p>
-                        <a href="http://35.197.29.97:8080/" class="btn btn-primary">Visit Site</a>
                         <a href="https://github.com/kevinzwang/cs-arch-project" class="btn btn-primary">View Project</a>
+                        <a href="http://35.197.29.97:8080/" class="btn btn-secondary disabled" aria-disabled="true">Visit Site</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4 p-3 my-1">
                 <div class="card shadow">
                     <img class="card-img-top" src="assets/images/deep-blue-logo.jpg" alt="Deep Blue Logo">
                     <div class="card-body">
@@ -39,8 +55,6 @@
                         <a href="https://github.com/DeepBlueRobotics/RobotCode2018" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4 p-3 my-1">
                 <div class="card shadow">
                     <img class="card-img-top" src="https://images.mixer.com/shx6k7sYT1XeJ0Dgp8O6253xIJPLccocFpvFrfPKIVho/http://chunktv.com/images/discord-logosquare.jpg"
                         alt="Discord Logo">
@@ -50,15 +64,13 @@
                         <a href="https://github.com/kevinzwang/marvin-ts" class="btn btn-primary">View Project</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4 p-3 my-1">
                 <div class="card shadow">
                     <img class="card-img-top" src="assets/images/auto-script-visualizer.png" alt="Visualizer Website">
                     <div class="card-body">
                         <h4 class="card-title">Auto Script Visualizer</h4>
                         <p class="card-text">A website I made to generate path code for the 15 second Autonomous period for FRC.</p>
-                        <a href="https://kevinzwang.github.io/auto-script-visualizer" class="btn btn-primary">Visit Site</a>
                         <a href="https://github.com/kevinzwang/auto-script-visualizer" class="btn btn-primary">View Project</a>
+                        <a href="https://kevinzwang.github.io/auto-script-visualizer" class="btn btn-secondary">Visit Site</a>
                     </div>
                 </div>
             </div>
