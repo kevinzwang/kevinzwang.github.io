@@ -11,6 +11,10 @@
     background-color: #4faf4e
 }
 
+#kumon-logo {
+    background-color: #7dcdf4
+}
+
 .social-media > a > i {
     padding-left: 0.5rem;
     transition: .2s ease-out
